@@ -1,0 +1,3 @@
+[submodule "themes/techlab"]
+	path = themes/techlab
+	url = https://github.com/sefeng211/techlab-hugo-theme.git
