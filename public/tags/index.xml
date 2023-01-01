@@ -30,28 +30,6 @@
     </item>
     
     <item>
-      <title>redirect</title>
-      <link>https://example.com/tags/redirect/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/redirect/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>redirectUrl</title>
-      <link>https://example.com/tags/redirecturl/</link>
-      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/redirecturl/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
       <title>css</title>
       <link>https://example.com/tags/css/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
@@ -123,17 +101,6 @@
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/tags/emoji/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>thumbnail</title>
-      <link>https://example.com/tags/thumbnail/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/tags/thumbnail/</guid>
       
         <description></description>
       

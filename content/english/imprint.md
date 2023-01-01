@@ -1,8 +1,10 @@
-# Legal Disclosure
+# Imprint
 
-Information in accordance with the applicable law
+Let's keep it simple, I only collect information here with open source web analytics...\
+and out of curiosity mostly.\
+It will not go to any third party.\
+I also do not collect any personal data.
 
-Jane Doe\
-Anatole Street 10\
-2016 GoHugo\
-Germany
+Georgy Toporkov\
+georgy@analytics-abc.xyz\
+Izmit/Kocaeli, Turkiye

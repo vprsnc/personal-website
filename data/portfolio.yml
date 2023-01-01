@@ -13,13 +13,12 @@ portfolioitems:
         status: 'Beta'
         # start: '2022'
         # end: '2023'
-        authors:
-          - Georgy Toporkov
+        # authors:
+        #   - Georgy Toporkov
       - name: Personal Finances app
         image: '/images/portfolio/Finances.png'
         link: https://shiny.analytics-abc.xyz/apps/finances
-        description: 'This is an app for managing personal finances built with R Shiny, and hosted on this server. This is a copy of the app I was using myself for controlling my expenses. It uses Postgre as a database, but only for that several people can load it to watch and test, but for the personal use this is an overkill.
-Duckdb should just fine ;)'
+        description: 'This is an app for managing personal finances built with R Shiny, and hosted on this server. This is a copy of the app I was using myself for controlling my expenses. It uses Postgre as a database, but only for that several people can load it to watch and test, but for the personal use this is an overkill. Duckdb should just fine ;) Source code is available on Github'
         status: 'Alpha'
         tags:
           - Shiny
@@ -34,7 +33,17 @@ Duckdb should just fine ;)'
 The capacity was around 500 emails per hour, and campaigns were sent all day long.
 So it was necessary to constantly get the data from the mail server.
 It is built in Python Plotly Dash, and was deployed on a private server, this is a sample app, using sample data, deployed on heroku.
-It also has better funnier colorscheme (:'
+It also has better funnier colorscheme (: Source code is available on Github.'
         tags:
           - Python
           - PlotlyDash
+        status:
+          'Deployed'
+
+  # portfolio category
+  - title: etc.
+    portfolioitem:
+      - name: Personal Website
+        image: '/images/portfolio/website.png'
+        link: 'https://github.com/vprsnc/personal-webiste'
+        description: 'This website is built with Hugo, I used theme "Anatole" from themes.gohugo.io, just slightly modified CSS to match Nord theme palette. You can find the source code here.'
