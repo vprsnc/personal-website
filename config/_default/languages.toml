@@ -1,0 +1,13 @@
+[en]
+title = "Georgy Toporkov"
+description = "Data Analyst"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
+
+[ru]
+title = "Георгий Топорков"
+description = "Аналитик данных"
+contentDir = "content/russian"
+weight = 2
+LanguageName = "RU"
