@@ -27,6 +27,18 @@
                 href="https://example.com/ru/"
                 />
   </url><url>
+    <loc>https://example.com/ru/post/why-mean-is-good/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/why-mean-is-good/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://example.com/ru/post/why-mean-is-good/"
+                />
+  </url><url>
     <loc>https://example.com/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
