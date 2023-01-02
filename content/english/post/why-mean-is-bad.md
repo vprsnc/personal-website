@@ -1,6 +1,6 @@
 ---
 title: "Why the Mean is not Always the Best Measure: The Case of Bill Gates and the Average Persons Income"
-date: 2023-01-01T18:22:51+03:00
+date: 2023-01-02T18:10:00+03:00
 draft: false
 ---
 

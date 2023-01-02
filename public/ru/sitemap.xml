@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/ru/</loc>
-    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    <lastmod>2023-01-02T10:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://example.com/ru/post/</loc>
-    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    <lastmod>2023-01-02T10:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,17 +29,7 @@
                 />
   </url><url>
     <loc>https://example.com/ru/post/why-mean-is-bad/</loc>
-    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/why-mean-is-bad/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://example.com/ru/post/why-mean-is-bad/"
-                />
+    <lastmod>2023-01-02T10:22:51+03:00</lastmod>
   </url><url>
     <loc>https://example.com/ru/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
