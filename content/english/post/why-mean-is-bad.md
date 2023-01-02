@@ -2,6 +2,7 @@
 title: "Why the Mean is not Always the Best Measure: The Case of Bill Gates and the Average Persons Income"
 date: 2023-01-02T10:10:01+03:00
 draft: false
+Tags: ["basics"]
 ---
 
 ![mean-is-bad](/images/posts/mean-is-bad.png)

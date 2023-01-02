@@ -5,7 +5,30 @@
     <link>https://example.com/ru/tags/</link>
     <description>Recent content in Tags on Георгий Топорков</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Jan 2023 10:22:51 +0300</lastBuildDate><atom:link href="https://example.com/ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#basics</title>
+      <link>https://example.com/ru/tags/#basics/</link>
+      <pubDate>Mon, 02 Jan 2023 10:22:51 +0300</pubDate>
+      
+      <guid>https://example.com/ru/tags/#basics/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>basics</title>
+      <link>https://example.com/ru/tags/basics/</link>
+      <pubDate>Sun, 01 Jan 2023 18:22:51 +0300</pubDate>
+      
+      <guid>https://example.com/ru/tags/basics/</guid>
+      
+        <description></description>
+      
+    </item>
+    
     <item>
       <title>index</title>
       <link>https://example.com/ru/tags/index/</link>

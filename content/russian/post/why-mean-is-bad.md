@@ -2,6 +2,7 @@
 title: "Когда среднее не работает: доходы депутатов и твои доходы"
 date: 2023-01-02T10:22:51+03:00
 draft: false
+Tags: ["#basics"]
 ---
 
 ![mean-is-bad](/images/posts/mean-is-bad-ru.png)

@@ -2,6 +2,7 @@
 title: "Why Mean is actually good?"
 date: 2023-01-01T18:22:51+03:00
 draft: false
+Tags: ["basics"]
 ---
 
 ![average](/images/posts/mean-is-good.png)
