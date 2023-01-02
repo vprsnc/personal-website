@@ -41,6 +41,19 @@
                 href="https://example.com/ru/post/why-mean-is-bad/"
                 />
   </url><url>
+    <loc>https://example.com/ru/post/why-mean-is-good/</loc>
+    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/why-mean-is-good/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://example.com/ru/post/why-mean-is-good/"
+                />
+  </url><url>
     <loc>https://example.com/ru/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -52,18 +65,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://example.com/ru/about/"
-                />
-  </url><url>
-    <loc>https://example.com/ru/post/why-mean-is-good/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/why-mean-is-good/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://example.com/ru/post/why-mean-is-good/"
                 />
   </url><url>
     <loc>https://example.com/ru/categories/</loc>
