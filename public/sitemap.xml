@@ -11,6 +11,8 @@
   <sitemap>
     <loc>https://example.com/ru/sitemap.xml</loc>
     
+      <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    
   </sitemap>
   
 </sitemapindex>

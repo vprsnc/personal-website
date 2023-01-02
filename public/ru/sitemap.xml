@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://example.com/ru/</loc>
+    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://example.com/ru/"
+                />
+  </url><url>
+    <loc>https://example.com/ru/post/</loc>
+    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://example.com/ru/post/"
+                />
+  </url><url>
+    <loc>https://example.com/ru/post/why-mean-is-bad/</loc>
+    <lastmod>2023-01-01T18:22:51+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://example.com/post/why-mean-is-bad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://example.com/ru/post/why-mean-is-bad/"
+                />
+  </url><url>
     <loc>https://example.com/ru/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -13,18 +52,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://example.com/ru/about/"
-                />
-  </url><url>
-    <loc>https://example.com/ru/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://example.com/ru/"
                 />
   </url><url>
     <loc>https://example.com/ru/post/why-mean-is-good/</loc>
@@ -61,18 +88,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://example.com/ru/tags/index/"
-                />
-  </url><url>
-    <loc>https://example.com/ru/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://example.com/ru/post/"
                 />
   </url><url>
     <loc>https://example.com/ru/series/</loc>
