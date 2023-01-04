@@ -6,4 +6,4 @@ description: Contact Page
 contact: false
 ---
 
-<iframe src="https://www.shiny.analytics-abc.xyz/misc/contact-form/" width="50%" height="300"></iframe>
+<iframe src="https://www.shiny.analytics-abc.xyz/misc/contact-form/" width="50%" height="500"></iframe>
