@@ -14,7 +14,8 @@
       
       <guid>https://analytics-abc.xyz/post/why-mean-is-bad/</guid>
       
-        <description>When it comes to understanding income distribution and comparing the financial wellbeing of different groups, it is common to use measures like the mean (or average) income.</description>
+        <description>When it comes to understanding income distribution and comparing the financial wellbeing of different groups, it is common to use measures like the mean (or average) income. However, the mean can be a problematic measure in certain situations, especially when there are extreme values (also known as outliers) in the data.
+Consider the case of Bill Gates, one of the wealthiest people in the world, and the income of the average person.</description>
       
     </item>
     
@@ -25,7 +26,8 @@
       
       <guid>https://analytics-abc.xyz/post/why-mean-is-good/</guid>
       
-        <description>This my first post, so why not to pick the most basic topic?</description>
+        <description>This my first post, so why not to pick the most basic topic?
+The mean, or the average, is a measure of central tendency that we are all familiar with from a young age. It is simply the sum of all values in a dataset divided by the number of values in the dataset. For example, if we have a dataset containing the values 1, 2, and 3, the mean would be (1+2+3)/3 = 2.</description>
       
     </item>
     

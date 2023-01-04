@@ -38,5 +38,6 @@
     {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
       {{- partial "analytics/simpleanalytics.html" . -}}
     {{- end -}}
+    {{- partial "matomo-tracking" . -}}
   </body>
 </html>

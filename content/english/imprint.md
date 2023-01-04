@@ -8,3 +8,5 @@ I also do not collect any personal data.
 Georgy Toporkov\
 georgy@analytics-abc.xyz\
 Izmit/Kocaeli, Turkiye
+
+{{< matomo-optout >}}

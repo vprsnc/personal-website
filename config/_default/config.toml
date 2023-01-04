@@ -8,6 +8,17 @@ title = "Website of Georgy Toporkov"
 # theme as git submodule
 theme = ["anatole", "matomo"]
 
+[params.matomo]
+url = "https://analytics-abc.xyz"
+id = 1
+
+[params.matomo.track]
+button = "Allow ethical data collection"
+message = "Don't worry, it's opensource analytics, it's not collecting *any* personal data at all, and not giving it to any 3d party."
+[params.matomo.block]
+button = "Disallow data collection"
+message = "You're *not* tracked."
+
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
