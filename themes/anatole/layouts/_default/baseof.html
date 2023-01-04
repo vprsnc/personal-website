@@ -10,6 +10,7 @@
   {{ end }}
 >
   {{- partial "head.html" . -}}
+  {{ partial "matomo-tracking" . }}
   <body class="body">
     <div class="wrapper">
       <aside
@@ -38,6 +39,5 @@
     {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
       {{- partial "analytics/simpleanalytics.html" . -}}
     {{- end -}}
-    {{- partial "matomo-tracking" . -}}
   </body>
 </html>
