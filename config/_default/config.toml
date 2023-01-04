@@ -1,12 +1,12 @@
-baseURL = "https://example.com"
+baseURL = "https://analytics-abc.xyz"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Website of Georgy Toporkov"
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"
 # theme as git submodule
-theme = "anatole"
+theme = ["anatole", "matomo"]
 
 summarylength = 10
 enableEmoji = true
