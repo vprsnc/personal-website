@@ -6,9 +6,4 @@ description: Contact Page
 contact: false
 ---
 
-Georgy Toporkov
-
-Izmit/Kocaeli, Turkiye\
-Mail: georgy@analytics-abc.xyz\
-Phone: +90 534 609 9805\
-Phone: +7 995 889 6086
+<iframe src="https://www.shiny.analytics-abc.xyz/misc/contact-form/" width="50%" height="300"></iframe>
