@@ -4,7 +4,7 @@ portfolioitems:
     portfolioitem:
       - name: Bayesian A/B test calculator
         image: '/images/Bayesian.png'
-        link: https://shiny.analytics-abc.xyz/apps/a-b-calculator/
+        link: http://shiny.analytics-abc.xyz/apps/a-b-calculator/
         linktext: 'Visit project website'
         description: 'Universal calculator for any kind of A/B tests using Bayesian probability, build with R, Plotly and Shiny. Source code is available on my Github.'
         tags:
@@ -17,7 +17,7 @@ portfolioitems:
         #   - Georgy Toporkov
       - name: Personal Finances app
         image: '/images/portfolio/Finances.png'
-        link: https://shiny.analytics-abc.xyz/apps/finances
+        link: http://shiny.analytics-abc.xyz/apps/finances
         description: 'This is an app for managing personal finances built with R Shiny, and hosted on this server. This is a copy of the app I was using myself for controlling my expenses. It uses Postgre as a database, but only for that several people can load it to watch and test, but for the personal use this is an overkill. Duckdb should just fine ;) Source code is available on Github'
         status: 'Alpha'
         tags:
@@ -45,5 +45,5 @@ It also has better funnier colorscheme (: Source code is available on Github.'
     portfolioitem:
       - name: Personal Website
         image: '/images/portfolio/website.png'
-        link: 'https://github.com/vprsnc/personal-webiste'
+        link: https://github.com/vprsnc/personal-website
         description: 'This website is built with Hugo, I used theme "Anatole" from themes.gohugo.io, just slightly modified CSS to match Nord theme palette. You can find the source code here.'
