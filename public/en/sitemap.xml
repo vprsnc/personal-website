@@ -2,213 +2,213 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://analytics-abc.xyz/</loc>
+    <loc>/</loc>
     <lastmod>2023-01-02T10:10:01+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/"
+                href="/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/"
+                href="/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/basics/</loc>
+    <loc>/tags/basics/</loc>
     <lastmod>2023-01-02T10:10:01+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/tags/basics/"
+                href="/ru/tags/basics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/tags/basics/"
+                href="/tags/basics/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2023-01-02T10:10:01+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/post/"
+                href="/ru/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/post/"
+                href="/post/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-01-02T10:10:01+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/tags/"
+                href="/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/tags/"
+                href="/tags/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/post/why-mean-is-bad/</loc>
+    <loc>/post/why-mean-is-bad/</loc>
     <lastmod>2023-01-02T10:10:01+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/post/why-mean-is-bad/"
+                href="/ru/post/why-mean-is-bad/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/post/why-mean-is-bad/"
+                href="/post/why-mean-is-bad/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/post/why-mean-is-good/</loc>
+    <loc>/post/why-mean-is-good/</loc>
     <lastmod>2023-01-01T18:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/post/why-mean-is-good/"
+                href="/ru/post/why-mean-is-good/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/post/why-mean-is-good/"
+                href="/post/why-mean-is-good/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/about/"
+                href="/ru/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/about/"
+                href="/about/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/awards/</loc>
+    <loc>/awards/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/certifications/</loc>
+    <loc>/certifications/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/series/</loc>
+    <loc>/series/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/series/"
+                href="/ru/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/series/"
+                href="/series/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/post/series-part-2/</loc>
+    <loc>/post/series-part-2/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/series/series-setup/</loc>
+    <loc>/series/series-setup/</loc>
     <lastmod>2021-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/series-part-1/</loc>
+    <loc>/post/series-part-1/</loc>
     <lastmod>2021-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/demo/</loc>
+    <loc>/tags/demo/</loc>
     <lastmod>2021-03-13T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/shortcode/</loc>
+    <loc>/tags/shortcode/</loc>
     <lastmod>2021-03-13T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/figure-shortcode/</loc>
+    <loc>/post/figure-shortcode/</loc>
     <lastmod>2021-03-13T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/archives/</loc>
+    <loc>/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/categories/"
+                href="/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/categories/"
+                href="/categories/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/css/</loc>
+    <loc>/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/html/</loc>
+    <loc>/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/markdown/</loc>
+    <loc>/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/markdown-syntax/</loc>
+    <loc>/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/categories/syntax/</loc>
+    <loc>/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/categories/themes/</loc>
+    <loc>/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/series/themes-guide/</loc>
+    <loc>/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/privacy/</loc>
+    <loc>/tags/privacy/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/rich-content/</loc>
+    <loc>/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/shortcodes/</loc>
+    <loc>/tags/shortcodes/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/placeholder-text/</loc>
+    <loc>/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/text/</loc>
+    <loc>/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/math-typesetting/</loc>
+    <loc>/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/emoji/</loc>
+    <loc>/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/post/emoji-support/</loc>
+    <loc>/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/imprint/</loc>
+    <loc>/imprint/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>https://analytics-abc.xyz/tags/index/</loc>
+    <loc>/tags/index/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/tags/index/"
+                href="/ru/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/tags/index/"
+                href="/tags/index/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/portfolio/</loc>
+    <loc>/portfolio/</loc>
   </url>
 </urlset>

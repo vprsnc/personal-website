@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>basics on Georgy Toporkov</title>
-    <link>https://analytics-abc.xyz/tags/basics/</link>
+    <link>/tags/basics/</link>
     <description>Recent content in basics on Georgy Toporkov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jan 2023 10:10:01 +0300</lastBuildDate><atom:link href="https://analytics-abc.xyz/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 10:10:01 +0300</lastBuildDate><atom:link href="/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why the Mean is not Always the Best Measure: The Case of Bill Gates and the Average Persons Income</title>
-      <link>https://analytics-abc.xyz/post/why-mean-is-bad/</link>
+      <link>/post/why-mean-is-bad/</link>
       <pubDate>Mon, 02 Jan 2023 10:10:01 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/why-mean-is-bad/</guid>
+      <guid>/post/why-mean-is-bad/</guid>
       
         <description>When it comes to understanding income distribution and comparing the financial wellbeing of different groups, it is common to use measures like the mean (or average) income. However, the mean can be a problematic measure in certain situations, especially when there are extreme values (also known as outliers) in the data.
 Consider the case of Bill Gates, one of the wealthiest people in the world, and the income of the average person.</description>
@@ -21,10 +21,10 @@ Consider the case of Bill Gates, one of the wealthiest people in the world, and 
     
     <item>
       <title>Why Mean is actually good?</title>
-      <link>https://analytics-abc.xyz/post/why-mean-is-good/</link>
+      <link>/post/why-mean-is-good/</link>
       <pubDate>Sun, 01 Jan 2023 18:22:51 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/why-mean-is-good/</guid>
+      <guid>/post/why-mean-is-good/</guid>
       
         <description>This my first post, so why not to pick the most basic topic?
 The mean, or the average, is a measure of central tendency that we are all familiar with from a young age. It is simply the sum of all values in a dataset divided by the number of values in the dataset. For example, if we have a dataset containing the values 1, 2, and 3, the mean would be (1+2+3)/3 = 2.</description>

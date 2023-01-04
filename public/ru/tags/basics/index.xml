@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>basics on Георгий Топорков</title>
-    <link>https://analytics-abc.xyz/ru/tags/basics/</link>
+    <link>/ru/tags/basics/</link>
     <description>Recent content in basics on Георгий Топорков</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 18:22:51 +0300</lastBuildDate><atom:link href="https://analytics-abc.xyz/ru/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 18:22:51 +0300</lastBuildDate><atom:link href="/ru/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Почему среднее - хорошо?</title>
-      <link>https://analytics-abc.xyz/ru/post/why-mean-is-good/</link>
+      <link>/ru/post/why-mean-is-good/</link>
       <pubDate>Sun, 01 Jan 2023 18:22:51 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/ru/post/why-mean-is-good/</guid>
+      <guid>/ru/post/why-mean-is-good/</guid>
       
         <description>Это мой первый пост, так почему бы не выбрать самую банальную тему?
 Все мы постоянно слышим про среднее, но что же это на самом деле такое и с чем его есть?

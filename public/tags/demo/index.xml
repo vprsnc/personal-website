@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>demo on Georgy Toporkov</title>
-    <link>https://analytics-abc.xyz/tags/demo/</link>
+    <link>/tags/demo/</link>
     <description>Recent content in demo on Georgy Toporkov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Mar 2021 21:47:41 +0000</lastBuildDate><atom:link href="https://analytics-abc.xyz/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Mar 2021 21:47:41 +0000</lastBuildDate><atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Figure Shortcode</title>
-      <link>https://analytics-abc.xyz/post/figure-shortcode/</link>
+      <link>/post/figure-shortcode/</link>
       <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/figure-shortcode/</guid>
+      <guid>/post/figure-shortcode/</guid>
       
         <description>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images. Documentations can be found here:
 https://gohugo.io/content-management/shortcodes/#figure

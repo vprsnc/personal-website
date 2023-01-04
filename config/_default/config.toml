@@ -1,4 +1,4 @@
-baseURL = "https://analytics-abc.xyz"
+baseURL = ["https://analytics-abc.xyz", "https://georgyt.xyz"]
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Georgy Toporkov"

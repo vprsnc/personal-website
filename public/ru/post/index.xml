@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Георгий Топорков</title>
-    <link>https://analytics-abc.xyz/ru/post/</link>
+    <link>/ru/post/</link>
     <description>Recent content in Posts on Георгий Топорков</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jan 2023 10:22:51 +0300</lastBuildDate><atom:link href="https://analytics-abc.xyz/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 10:22:51 +0300</lastBuildDate><atom:link href="/ru/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Когда среднее не работает: доходы депутатов и твои доходы</title>
-      <link>https://analytics-abc.xyz/ru/post/why-mean-is-bad/</link>
+      <link>/ru/post/why-mean-is-bad/</link>
       <pubDate>Mon, 02 Jan 2023 10:22:51 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/ru/post/why-mean-is-bad/</guid>
+      <guid>/ru/post/why-mean-is-bad/</guid>
       
         <description>Когда дело доходит до понимания распределения доходов и сравнения финансового благополучия различных групп, обычно используются такие показатели, как средний доход. Особенно средний доход пользуется популярностью в определённых странах, таких, где нужно предоставлять начальству отчёт о том, всё на самом деле прекрасно. Тем не менее, среднее значение может быть проблематичным в определенных ситуациях, особенно когда в данных есть экстремальные значения (также известные как выбросы).
 Рассмотрим случай кого-нибудь из самых богатых людей в какой-нибудь стране (для простоты назовём его Вячеслав Викторович), и доход среднего человека.</description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>Почему среднее - хорошо?</title>
-      <link>https://analytics-abc.xyz/ru/post/why-mean-is-good/</link>
+      <link>/ru/post/why-mean-is-good/</link>
       <pubDate>Sun, 01 Jan 2023 18:22:51 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/ru/post/why-mean-is-good/</guid>
+      <guid>/ru/post/why-mean-is-good/</guid>
       
         <description>Это мой первый пост, так почему бы не выбрать самую банальную тему?
 Все мы постоянно слышим про среднее, но что же это на самом деле такое и с чем его есть?

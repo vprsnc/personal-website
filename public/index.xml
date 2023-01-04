@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Georgy Toporkov</title>
-    <link>https://analytics-abc.xyz/</link>
+    <link>/</link>
     <description>Recent content on Georgy Toporkov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jan 2023 10:10:01 +0300</lastBuildDate><atom:link href="https://analytics-abc.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 10:10:01 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why the Mean is not Always the Best Measure: The Case of Bill Gates and the Average Persons Income</title>
-      <link>https://analytics-abc.xyz/post/why-mean-is-bad/</link>
+      <link>/post/why-mean-is-bad/</link>
       <pubDate>Mon, 02 Jan 2023 10:10:01 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/why-mean-is-bad/</guid>
+      <guid>/post/why-mean-is-bad/</guid>
       
         <description>When it comes to understanding income distribution and comparing the financial wellbeing of different groups, it is common to use measures like the mean (or average) income. However, the mean can be a problematic measure in certain situations, especially when there are extreme values (also known as outliers) in the data.
 Consider the case of Bill Gates, one of the wealthiest people in the world, and the income of the average person.</description>
@@ -21,10 +21,10 @@ Consider the case of Bill Gates, one of the wealthiest people in the world, and 
     
     <item>
       <title>Why Mean is actually good?</title>
-      <link>https://analytics-abc.xyz/post/why-mean-is-good/</link>
+      <link>/post/why-mean-is-good/</link>
       <pubDate>Sun, 01 Jan 2023 18:22:51 +0300</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/why-mean-is-good/</guid>
+      <guid>/post/why-mean-is-good/</guid>
       
         <description>This my first post, so why not to pick the most basic topic?
 The mean, or the average, is a measure of central tendency that we are all familiar with from a young age. It is simply the sum of all values in a dataset divided by the number of values in the dataset. For example, if we have a dataset containing the values 1, 2, and 3, the mean would be (1+2+3)/3 = 2.</description>
@@ -33,10 +33,10 @@ The mean, or the average, is a measure of central tendency that we are all famil
     
     <item>
       <title>About</title>
-      <link>https://analytics-abc.xyz/about/</link>
+      <link>/about/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/about/</guid>
+      <guid>/about/</guid>
       
         <description>I am a data analyst with background in sales and business development, which makes me good at understanding business requirements.
 I&amp;rsquo;m actively developing in fields of applied statistics, probability, and machine learning, though I&amp;rsquo;m capable also of building data pipelines, databases, and data engineering.
@@ -46,10 +46,10 @@ I&amp;rsquo;m passionate about data analytics, always taking my time to learn ne
     
     <item>
       <title>Contact</title>
-      <link>https://analytics-abc.xyz/contact/</link>
+      <link>/contact/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/contact/</guid>
+      <guid>/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -57,10 +57,10 @@ I&amp;rsquo;m passionate about data analytics, always taking my time to learn ne
     
     <item>
       <title>Awards</title>
-      <link>https://analytics-abc.xyz/awards/</link>
+      <link>/awards/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/awards/</guid>
+      <guid>/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
       
@@ -68,10 +68,10 @@ I&amp;rsquo;m passionate about data analytics, always taking my time to learn ne
     
     <item>
       <title>Certifications</title>
-      <link>https://analytics-abc.xyz/certifications/</link>
+      <link>/certifications/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/certifications/</guid>
+      <guid>/certifications/</guid>
       
         <description>Hugo Certifications</description>
       
@@ -79,10 +79,10 @@ I&amp;rsquo;m passionate about data analytics, always taking my time to learn ne
     
     <item>
       <title>Series Part 2</title>
-      <link>https://analytics-abc.xyz/post/series-part-2/</link>
+      <link>/post/series-part-2/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/series-part-2/</guid>
+      <guid>/post/series-part-2/</guid>
       
         <description>A brief guide to how to setup series part 2</description>
       
@@ -90,10 +90,10 @@ I&amp;rsquo;m passionate about data analytics, always taking my time to learn ne
     
     <item>
       <title>Series Part 1</title>
-      <link>https://analytics-abc.xyz/post/series-part-1/</link>
+      <link>/post/series-part-1/</link>
       <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/series-part-1/</guid>
+      <guid>/post/series-part-1/</guid>
       
         <description>A brief guide to how to setup series part 1</description>
       
@@ -101,10 +101,10 @@ I&amp;rsquo;m passionate about data analytics, always taking my time to learn ne
     
     <item>
       <title>The Figure Shortcode</title>
-      <link>https://analytics-abc.xyz/post/figure-shortcode/</link>
+      <link>/post/figure-shortcode/</link>
       <pubDate>Sat, 13 Mar 2021 21:47:41 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/figure-shortcode/</guid>
+      <guid>/post/figure-shortcode/</guid>
       
         <description>Hugo has figure shortcode built-in, so you can easily add figure captions or hyperlink rel attributes to images. Documentations can be found here:
 https://gohugo.io/content-management/shortcodes/#figure
@@ -115,10 +115,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title></title>
-      <link>https://analytics-abc.xyz/archives/</link>
+      <link>/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/archives/</guid>
+      <guid>/archives/</guid>
       
         <description></description>
       
@@ -126,10 +126,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://analytics-abc.xyz/post/markdown-syntax/</link>
+      <link>/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/markdown-syntax/</guid>
+      <guid>/post/markdown-syntax/</guid>
       
         <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
       
@@ -137,10 +137,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title>Rich Content</title>
-      <link>https://analytics-abc.xyz/post/rich-content/</link>
+      <link>/post/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/rich-content/</guid>
+      <guid>/post/rich-content/</guid>
       
         <description>A brief description of Hugo Shortcodes</description>
       
@@ -148,10 +148,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title>Placeholder Text</title>
-      <link>https://analytics-abc.xyz/post/placeholder-text/</link>
+      <link>/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/placeholder-text/</guid>
+      <guid>/post/placeholder-text/</guid>
       
         <description>Lorem Ipsum Dolor Si Amet</description>
       
@@ -159,10 +159,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://analytics-abc.xyz/post/math-typesetting/</link>
+      <link>/post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/math-typesetting/</guid>
+      <guid>/post/math-typesetting/</guid>
       
         <description>A brief guide to setup KaTeX</description>
       
@@ -170,10 +170,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title>Emoji Support</title>
-      <link>https://analytics-abc.xyz/post/emoji-support/</link>
+      <link>/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/post/emoji-support/</guid>
+      <guid>/post/emoji-support/</guid>
       
         <description>Guide to emoji usage in Hugo</description>
       
@@ -181,10 +181,10 @@ big: images will break the width limit of main content area. left: images will f
     
     <item>
       <title></title>
-      <link>https://analytics-abc.xyz/imprint/</link>
+      <link>/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/imprint/</guid>
+      <guid>/imprint/</guid>
       
         <description>Imprint Let&amp;rsquo;s keep it simple, I only collect information here with open source web analytics&amp;hellip;
 and out of curiosity mostly.

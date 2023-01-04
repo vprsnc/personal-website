@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Georgy Toporkov</title>
-    <link>https://analytics-abc.xyz/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Georgy Toporkov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://analytics-abc.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>syntax</title>
-      <link>https://analytics-abc.xyz/categories/syntax/</link>
+      <link>/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/categories/syntax/</guid>
+      <guid>/categories/syntax/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>themes</title>
-      <link>https://analytics-abc.xyz/categories/themes/</link>
+      <link>/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://analytics-abc.xyz/categories/themes/</guid>
+      <guid>/categories/themes/</guid>
       
         <description></description>
       

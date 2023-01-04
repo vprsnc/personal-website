@@ -2,134 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://analytics-abc.xyz/ru/</loc>
+    <loc>/ru/</loc>
     <lastmod>2023-01-02T10:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/"
+                href="/ru/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/tags/#basics/</loc>
+    <loc>/ru/tags/#basics/</loc>
     <lastmod>2023-01-02T10:22:51+03:00</lastmod>
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/post/</loc>
-    <lastmod>2023-01-02T10:22:51+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://analytics-abc.xyz/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://analytics-abc.xyz/ru/post/"
-                />
-  </url><url>
-    <loc>https://analytics-abc.xyz/ru/tags/</loc>
+    <loc>/ru/post/</loc>
     <lastmod>2023-01-02T10:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/tags/"
+                href="/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/tags/"
+                href="/ru/post/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/post/why-mean-is-bad/</loc>
+    <loc>/ru/tags/</loc>
     <lastmod>2023-01-02T10:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/post/why-mean-is-bad/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/post/why-mean-is-bad/"
+                href="/ru/tags/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/tags/basics/</loc>
+    <loc>/ru/post/why-mean-is-bad/</loc>
+    <lastmod>2023-01-02T10:22:51+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/post/why-mean-is-bad/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/post/why-mean-is-bad/"
+                />
+  </url><url>
+    <loc>/ru/tags/basics/</loc>
     <lastmod>2023-01-01T18:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/tags/basics/"
+                href="/tags/basics/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/tags/basics/"
+                href="/ru/tags/basics/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/post/why-mean-is-good/</loc>
+    <loc>/ru/post/why-mean-is-good/</loc>
     <lastmod>2023-01-01T18:22:51+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/post/why-mean-is-good/"
+                href="/post/why-mean-is-good/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/post/why-mean-is-good/"
+                href="/ru/post/why-mean-is-good/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/about/</loc>
+    <loc>/ru/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/about/"
+                href="/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/about/"
+                href="/ru/about/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/categories/</loc>
+    <loc>/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/categories/"
+                href="/ru/categories/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/tags/index/</loc>
+    <loc>/ru/tags/index/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/tags/index/"
+                href="/tags/index/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/tags/index/"
+                href="/ru/tags/index/"
                 />
   </url><url>
-    <loc>https://analytics-abc.xyz/ru/series/</loc>
+    <loc>/ru/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://analytics-abc.xyz/series/"
+                href="/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://analytics-abc.xyz/ru/series/"
+                href="/ru/series/"
                 />
   </url>
 </urlset>
