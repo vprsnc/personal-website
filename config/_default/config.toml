@@ -9,7 +9,7 @@ title = "Website of Georgy Toporkov"
 theme = ["anatole", "matomo"]
 
 [params.matomo]
-url = "https://analytics-abc.xyz"
+url = "https://matomo.analytics-abc.xyz"
 id = 1
 
 [params.matomo.track]
