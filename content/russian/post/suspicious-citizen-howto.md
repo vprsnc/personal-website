@@ -2,7 +2,7 @@
 title: "Меры разброса: как понять, что в данные проник подозрительный гражданин?"
 date: 2023-01-06T15:10:19+03:00
 draft: false
-Tags: basics
+Tags: ["basics"]
 ---
 
 ![suspicious-data-citizen](/images/posts/suspicious-citizen.png)
