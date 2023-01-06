@@ -41,12 +41,12 @@ It also has better funnier colorscheme (: Source code is available on Github.'
           'Deployed'
 
   # portfolio category
-  -title: Certificates
-   portfolioitem:
-     -name: Google Data Analyst Professional Certificate
-      image: '/images/portfolio/google_data_analyst.png'
-      link: https://www.credly.com/badges/6acb19b5-d800-4ad1-9872-e8aa3ee7367c/public_url
-      description: 'Those who earn the Google Data Analytics Certificate have completed eight courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductory-level roles in Data Analytics. They are competent in tools and platforms including spreadsheets, SQL, Tableau, and R. They know how to prepare, process, analyze, and share data for thoughtful action.'
+  - title: Certificates
+    portfolioitem:
+     - name: Google Data Analyst Professional Certificate
+       image: '/images/portfolio/google_data_analyts.png'
+       link: https://www.credly.com/badges/6acb19b5-d800-4ad1-9872-e8aa3ee7367c/public_url
+       description: 'Those who earn the Google Data Analytics Certificate have completed eight courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductory-level roles in Data Analytics. They are competent in tools and platforms including spreadsheets, SQL, Tableau, and R. They know how to prepare, process, analyze, and share data for thoughtful action.'
 
 
   # portfolio category
