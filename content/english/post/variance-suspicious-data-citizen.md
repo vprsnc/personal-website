@@ -2,7 +2,7 @@
 title: "Variance: How to detect Suspicious Data Citizen"
 date: 2023-01-06T20:28:50+03:00
 draft: false
-Tags: basics
+Tags: "basics"
 ---
 ![suspicious-data-citizen](/images/posts/suspicious-citizen.png)
 Previously, we've covered why the mean is a great measure of *central trend*.
