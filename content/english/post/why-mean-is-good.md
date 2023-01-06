@@ -13,6 +13,8 @@ The mean, or the average, is a measure of central tendency that we are all famil
 It is simply *the sum of all values in a dataset divided by the number of values* in the dataset.
 For example, if we have a dataset containing the values **1, 2, and 3,** the mean would be **(1+2+3)/3 = 2**.
 
+Measure of central tendency means that a whole set of values we can describe with only one number!
+
 So why is the mean such a good measure of central tendency?
 One reason is that it is *easy to understand and calculate*.
 Even those with little mathematical knowledge can grasp the concept of the mean and how to calculate it.
