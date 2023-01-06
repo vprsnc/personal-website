@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="ru"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        Меры разброса: как понять, что в данные проник подозрительный гражданин? |
+      Georgy Toporkov
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.106.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Georgy Toporkov" />
+  <meta
+    name="description"
+    content="Аналитик данных"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.4d417ddca3efd2f8f1ab65f58066b47503596c0714c3fbe847b152c15465183b.css"
+      integrity="sha256-TUF93KPv0vjxq2X1gGa0dQNZbAcUw/voR7FSwVRlGDs="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="/ru/post/suspicious-citizen-howto/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Меры разброса: как понять, что в данные проник подозрительный гражданин?"/>
+<meta name="twitter:description" content="В прошлых постах мы разобрали, почему среднее является отличной мерой центральной тенденции. Если коротко: оно позволяет всего одним числом описать целое множество значений. Но также у среднего есть недостаток. Оно неустойчиво к сильным выбросам в данных. Например, если в одном датасете мы описали зарплаты рядовых граждан и одну (зато какую) зарплату условного депутата. В таком случае средний результат по группе может быть сильно искажён.
+Предположим, у нас есть такой набор данных:"/>
+
+
+
+  
+  <meta property="og:title" content="Меры разброса: как понять, что в данные проник подозрительный гражданин?" />
+<meta property="og:description" content="В прошлых постах мы разобрали, почему среднее является отличной мерой центральной тенденции. Если коротко: оно позволяет всего одним числом описать целое множество значений. Но также у среднего есть недостаток. Оно неустойчиво к сильным выбросам в данных. Например, если в одном датасете мы описали зарплаты рядовых граждан и одну (зато какую) зарплату условного депутата. В таком случае средний результат по группе может быть сильно искажён.
+Предположим, у нас есть такой набор данных:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/ru/post/suspicious-citizen-howto/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-06T15:10:19+03:00" />
+<meta property="article:modified_time" content="2023-01-06T15:10:19+03:00" /><meta property="og:site_name" content="Георгий Топорков" />
+
+
+
+  
+<script data-id="matomo-tracking" data-matomo-tracking-url='https://matomo.analytics-abc.xyz' data-matomo-tracking-id='1' src="/js/matomo-tracking.min.d8e1498fb42aa6048c4db4ac8451d0141fe4a0a83a1b4857df2a67a0cabd350a.js" integrity="sha256-2OFJj7QqpgSMTbSshFHQFB/koKg6G0hX3ypnoMq9NQo=" crossorigin="anonymous" defer></script>
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Меры разброса: как понять, что в данные проник подозрительный гражданин?",
+        "headline": "Меры разброса: как понять, что в данные проник подозрительный гражданин?",
+        "alternativeHeadline": "",
+        "description": "
+      
+        В прошлых постах мы разобрали, почему среднее является отличной мерой центральной тенденции. Если коротко: оно позволяет всего одним числом описать целое множество значений. Но также у среднего есть недостаток. Оно неустойчиво к сильным выбросам в данных. Например, если в одном датасете мы описали зарплаты рядовых граждан и одну (зато какую) зарплату условного депутата. В таком случае средний результат по группе может быть сильно искажён.\nПредположим, у нас есть такой набор данных:
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/ru\/post\/suspicious-citizen-howto\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-01-06T15:10:19.00Z",
+        "datePublished": "2023-01-06T15:10:19.00Z",
+        "dateModified": "2023-01-06T15:10:19.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Georgy Toporkov",
+            "url": "",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "\/ru\/post\/suspicious-citizen-howto\/",
+        "wordCount" : "390",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+</head>
+
+<script data-id="matomo-tracking" data-matomo-tracking-url='https://matomo.analytics-abc.xyz' data-matomo-tracking-id='1' src="/js/matomo-tracking.min.d8e1498fb42aa6048c4db4ac8451d0141fe4a0a83a1b4857df2a67a0cabd350a.js" integrity="sha256-2OFJj7QqpgSMTbSshFHQFB/koKg6G0hX3ypnoMq9NQo=" crossorigin="anonymous" defer></script>
+  <body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/ru">Георгий Топорков</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Аналитик данных</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://linkedin.com/in/georgy-toporkov-actually"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/vprsnc/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.t.me/vprsnc"
+            target="_blank"
+            rel="noopener me"
+            aria-label="telegram"
+            title="telegram"
+          >
+            <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:georgy@analytics-abc.xyz"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Georgy Toporkov
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/ru/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR&#43;zwDAROtph0PXGte6ia8heboACF9R5l/DiY&#43;WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous" /><script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8&#43;w2LAIftJEULZABrF9PPFv&#43;tVkH" crossorigin="anonymous"></script><script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+      integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB&#43;w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"
+    ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/ru/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/ru/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/ru/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Меры Разброса: Как Понять, Что В Данные Проник Подозрительный Гражданин?</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  6/1/2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">2-minute read</span>
+          </li>
+        </ul>
+      <p><img src="/images/posts/suspicious-citizen.png" alt="suspicious-data-citizen"></p>
+<p>В прошлых постах мы разобрали, почему среднее является отличной мерой <em>центральной тенденции</em>.
+Если коротко: оно позволяет всего одним числом описать целое <em>множество</em> значений.
+Но также у среднего есть недостаток.
+Оно неустойчиво к сильным выбросам в данных.
+Например, если в одном датасете мы описали зарплаты рядовых граждан и одну (зато какую) зарплату условного депутата.
+В таком случае средний результат по группе может быть сильно искажён.</p>
+<p>Предположим, у нас есть такой набор данных:</p>
+<pre tabindex="0"><code>a = [1, 4, 7, 9, 4, 5, 5, 2, 3, 3, 3]
+
+среднее(а) = 4.2
+</code></pre><p>Мы знаем среднее значение а.
+Как нам понять, насколько точно оно описывает наше множество?
+Как узнать, присутствуют ли в данных выбросы и стоит ли использовать какую-то другую меру центральной тенденции?
+Как раз для этого и существуют меры разброса.</p>
+<p>Давайте подумаем, что мы можем сделать с тем, что у нас <em>уже есть</em>.
+Нам известно каждое отдельное значение а, а также их среднее.
+Почему бы нам просто не сравнить <em>все значения</em> со средним? Тогда мы легко поймём, насколько каждое значение находится далеко от «середины».</p>
+<pre tabindex="0"><code>[1 - 4.2, 4 - 4.2, 7 - 4.2 ... 3 - 4.2]
+
+[-3.2, -0.2, 2.8, 4.8, -0.2, 0.8, 0.8, -2.2, -1.2, -1.2, -1.2]
+</code></pre><p>Окей, сказано — сделано.
+Мы получили новый список значений.
+Но можем ли мы его как-нибудь описать одним числом, — так же, как мы делаем со средним?
+Ведь если список получится длинным, будет сложно оценить его «на глаз».</p>
+<p>Мы могли мы просто просуммировать все значения, но в самом первом посте мы говорили, что среднее само по себе компенсирует ошибки.</p>
+<p>Так что если мы просто сложим все значения, то получим <strong>0</strong>!</p>
+<pre tabindex="0"><code>-3.2+-0.2+2.8,+4.8-0.2+0.8+0.8-2.2-1.2-1.2-1.2 = 0
+</code></pre><p>Вообще, есть пара вариантов, как нам всё получить не просто <strong>0</strong>, а что-то более менее вменяемое.
+Один - это взять <em>абсолютные значения</em>, то есть попросту убрать все минусы перед отрицательными значениями.</p>
+<pre tabindex="0"><code>3.2+0.2+2.8+4.8+0.2+0.8+0.8+2.2+1.2+1.2+1.2 = 18.6
+</code></pre><p>Это уже что-то!
+Ещё один вариант - возвести все значения в <em>квадрат</em>.
+На практике возведение в квадрат втречается гораздо чаще и известно как <strong>дисперсия</strong> (varience).
+А встречается дисперсия чаще, потому что у нее есть одно важное <em>преимущество</em>:
+Возведение в квадрат, даёт <em>экспоненциальный</em> рост отклонения.
+Чем сильнее значени е отстоит от сдренего, тем сильнее оно будет влиять на дисперсию, тем самым делая её более наглядной.</p>
+<pre tabindex="0"><code>[-3.2, -0.2, 2.8, 4.8, -0.2, 0.8, 0.8, -2.2, -1.2, -1.2, -1.2]^2
+
+10.24+0.04+7.84+23.04+0.04+0.64+0.64+4.84+1.44+1.44+1.44 = 51.64
+</code></pre><p><strong>51.64</strong>!
+Выглядит подозрительно.
+Нам опредёленно нужно что-то предпринять? Но об этом вследующий раз&hellip;</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Georgy Toporkov
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/ru/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR&#43;zwDAROtph0PXGte6ia8heboACF9R5l/DiY&#43;WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous" /><script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8&#43;w2LAIftJEULZABrF9PPFv&#43;tVkH" crossorigin="anonymous"></script><script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+      integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB&#43;w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"
+    ></script></body>
+</html>

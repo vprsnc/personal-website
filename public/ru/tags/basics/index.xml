@@ -6,7 +6,19 @@
     <description>Recent content in basics on Георгий Топорков</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 18:22:51 +0300</lastBuildDate><atom:link href="/ru/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Jan 2023 10:22:51 +0300</lastBuildDate><atom:link href="/ru/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Когда среднее не работает: доходы депутатов и твои доходы</title>
+      <link>/ru/post/why-mean-is-bad/</link>
+      <pubDate>Mon, 02 Jan 2023 10:22:51 +0300</pubDate>
+      
+      <guid>/ru/post/why-mean-is-bad/</guid>
+      
+        <description>Когда дело доходит до понимания распределения доходов и сравнения финансового благополучия различных групп, обычно используются такие показатели, как средний доход. Особенно средний доход пользуется популярностью в определённых странах, таких, где нужно предоставлять начальству отчёт о том, всё на самом деле прекрасно. Тем не менее, среднее значение может быть проблематичным в определенных ситуациях, особенно когда в данных есть экстремальные значения (также известные как выбросы).
+Рассмотрим случай кого-нибудь из самых богатых людей в какой-нибудь стране (для простоты назовём его Вячеслав Викторович), и доход среднего человека.</description>
+      
+    </item>
+    
     <item>
       <title>Почему среднее - хорошо?</title>
       <link>/ru/post/why-mean-is-good/</link>

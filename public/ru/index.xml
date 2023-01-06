@@ -6,7 +6,19 @@
     <description>Recent content on Георгий Топорков</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jan 2023 10:22:51 +0300</lastBuildDate><atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 15:10:19 +0300</lastBuildDate><atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Меры разброса: как понять, что в данные проник подозрительный гражданин?</title>
+      <link>/ru/post/suspicious-citizen-howto/</link>
+      <pubDate>Fri, 06 Jan 2023 15:10:19 +0300</pubDate>
+      
+      <guid>/ru/post/suspicious-citizen-howto/</guid>
+      
+        <description>В прошлых постах мы разобрали, почему среднее является отличной мерой центральной тенденции. Если коротко: оно позволяет всего одним числом описать целое множество значений. Но также у среднего есть недостаток. Оно неустойчиво к сильным выбросам в данных. Например, если в одном датасете мы описали зарплаты рядовых граждан и одну (зато какую) зарплату условного депутата. В таком случае средний результат по группе может быть сильно искажён.
+Предположим, у нас есть такой набор данных:</description>
+      
+    </item>
+    
     <item>
       <title>Когда среднее не работает: доходы депутатов и твои доходы</title>
       <link>/ru/post/why-mean-is-bad/</link>
