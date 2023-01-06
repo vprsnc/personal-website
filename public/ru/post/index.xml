@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Георгий Топорков</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Jan 2023 15:10:19 +0300</lastBuildDate><atom:link href="/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2023 20:48:42 +0300</lastBuildDate><atom:link href="/ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Проклятие Sport Illustrated: Как использовать среднее в жизни</title>
+      <link>/ru/post/mean-in-life-sports-ilustrated-curse/</link>
+      <pubDate>Fri, 06 Jan 2023 20:48:42 +0300</pubDate>
+      
+      <guid>/ru/post/mean-in-life-sports-ilustrated-curse/</guid>
+      
+        <description>sports-illustrated-curse
+Есть такая городская легенда в штатах: проклятие Sports Illustrated. Любой спорстмен, которого печатают на обложке в следующем сезоне обязательно покажет себя хуже. Многие в США и вправду считают это сглазом, но мы же не в США, да? Давайте разберёмся.
+Вообще, есть такой закон больших чисел в теории вероятности, но подробно о нём в другой раз. Если кратко, то это значит, что любое распределение с увеличением числа экспериментов стремится к нормальному распределению, о нём тоже в другой раз.</description>
+      
+    </item>
+    
     <item>
       <title>Меры разброса: как понять, что в данные проник подозрительный гражданин?</title>
       <link>/ru/post/suspicious-citizen-howto/</link>
