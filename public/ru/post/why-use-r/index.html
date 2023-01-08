@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html
+  dir="ltr"
+  lang="ru"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head>
+  <title>
+    
+      
+        Почему именно R? |
+      Georgy Toporkov
+
+  </title>
+
+  
+  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.106.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Georgy Toporkov" />
+  <meta
+    name="description"
+    content="Аналитик данных"
+  />
+  
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/scss/main.min.4d417ddca3efd2f8f1ab65f58066b47503596c0714c3fbe847b152c15465183b.css"
+      integrity="sha256-TUF93KPv0vjxq2X1gGa0dQNZbAcUw/voR7FSwVRlGDs="
+      crossorigin="anonymous"
+      type="text/css"
+    />
+  
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.31b0a1f317f55c529a460897848c97436bb138b19c399b37de70d463a8bf6ed5.css"
+    integrity="sha256-MbCh8xf1XFKaRgiXhIyXQ2uxOLGcOZs33nDUY6i/btU="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
+    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
+    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
+    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
+    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="/ru/post/why-use-r/" />
+
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
+      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+
+  
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Почему именно R?"/>
+<meta name="twitter:description" content="Теперь, когда мы подходим к более интересным темам, чуть более сложным, чем всё сложить и поделить, пора бы подумать, в чём было бы удобно все эти дисперсии и прочюю статистику считать. Думаю, что здесь я чаще всего буду использовать именно R, хотя не исключаю, что будет что-то на питоне, и наоборот - полностью исключено, что хоть вы найдёте хоть что-нибудь про Excel. Давайте обо всём по порядку.
+Почему R? R создавался как язык программирования для статистки, анализа данных, визуализации и прочего, причём именно язык программирования, а не просто тул вроде Gretl."/>
+
+
+
+  
+  <meta property="og:title" content="Почему именно R?" />
+<meta property="og:description" content="Теперь, когда мы подходим к более интересным темам, чуть более сложным, чем всё сложить и поделить, пора бы подумать, в чём было бы удобно все эти дисперсии и прочюю статистику считать. Думаю, что здесь я чаще всего буду использовать именно R, хотя не исключаю, что будет что-то на питоне, и наоборот - полностью исключено, что хоть вы найдёте хоть что-нибудь про Excel. Давайте обо всём по порядку.
+Почему R? R создавался как язык программирования для статистки, анализа данных, визуализации и прочего, причём именно язык программирования, а не просто тул вроде Gretl." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/ru/post/why-use-r/" /><meta property="og:image" content="images/site-feature-image.png"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-08T20:30:52+03:00" />
+<meta property="article:modified_time" content="2023-01-08T20:30:52+03:00" /><meta property="og:site_name" content="Георгий Топорков" />
+
+
+
+  
+<script data-id="matomo-tracking" data-matomo-tracking-url='https://matomo.analytics-abc.xyz' data-matomo-tracking-id='1' src="/js/matomo-tracking.min.d8e1498fb42aa6048c4db4ac8451d0141fe4a0a83a1b4857df2a67a0cabd350a.js" integrity="sha256-2OFJj7QqpgSMTbSshFHQFB/koKg6G0hX3ypnoMq9NQo=" crossorigin="anonymous" defer></script>
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "Почему именно R?",
+        "headline": "Почему именно R?",
+        "alternativeHeadline": "",
+        "description": "
+      
+        Теперь, когда мы подходим к более интересным темам, чуть более сложным, чем всё сложить и поделить, пора бы подумать, в чём было бы удобно все эти дисперсии и прочюю статистику считать. Думаю, что здесь я чаще всего буду использовать именно R, хотя не исключаю, что будет что-то на питоне, и наоборот - полностью исключено, что хоть вы найдёте хоть что-нибудь про Excel. Давайте обо всём по порядку.\nПочему R? R создавался как язык программирования для статистки, анализа данных, визуализации и прочего, причём именно язык программирования, а не просто тул вроде Gretl.
+
+
+      
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/ru\/post\/why-use-r\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Georgy Toporkov"
+        },
+        "copyrightYear" : "2023",
+        "dateCreated": "2023-01-08T20:30:52.00Z",
+        "datePublished": "2023-01-08T20:30:52.00Z",
+        "dateModified": "2023-01-08T20:30:52.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Georgy Toporkov",
+            "url": "",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "\/ru\/post\/why-use-r\/",
+        "wordCount" : "459",
+        "genre" : [ ],
+        "keywords" : [ 
+      
+      "tools"
+
+    
+      
+        ,
+
+      
+      "R"
+
+    
+      
+        ,
+
+      
+      "programming"
+
+    ]
+    }
+  </script>
+
+
+</head>
+
+<script data-id="matomo-tracking" data-matomo-tracking-url='https://matomo.analytics-abc.xyz' data-matomo-tracking-id='1' src="/js/matomo-tracking.min.d8e1498fb42aa6048c4db4ac8451d0141fe4a0a83a1b4857df2a67a0cabd350a.js" integrity="sha256-2OFJj7QqpgSMTbSshFHQFB/koKg6G0hX3ypnoMq9NQo=" crossorigin="anonymous" defer></script>
+  <body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="/images/profile.jpg"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/ru">Георгий Топорков</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>Аналитик данных</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://linkedin.com/in/georgy-toporkov-actually"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/vprsnc/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.t.me/vprsnc"
+            target="_blank"
+            rel="noopener me"
+            aria-label="telegram"
+            title="telegram"
+          >
+            <i class="fab fa-telegram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:georgy@analytics-abc.xyz"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Georgy Toporkov
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/ru/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR&#43;zwDAROtph0PXGte6ia8heboACF9R5l/DiY&#43;WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous" /><script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8&#43;w2LAIftJEULZABrF9PPFv&#43;tVkH" crossorigin="anonymous"></script><script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+      integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB&#43;w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"
+    ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/ru/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/ru/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/portfolio/"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            <a
+              
+              href="/ru/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Почему Именно R?</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  8/1/2023
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">3-minute read</span>
+          </li>
+        </ul>
+      <p><img src="/images/posts/R-superior.png" alt="&amp;lsquo;r-is-superior&amp;rsquo;"></p>
+<p>Теперь, когда мы подходим к более интересным темам, чуть более сложным, чем всё сложить и поделить, пора бы подумать, в чём было бы удобно все эти дисперсии и прочюю статистику считать.
+Думаю, что здесь я чаще всего буду использовать именно R, хотя не исключаю, что будет что-то на питоне, и наоборот - полностью исключено, что хоть вы найдёте хоть что-нибудь про Excel.
+Давайте обо всём по порядку.</p>
+<p>Почему R?
+R создавался как язык программирования для статистки, анализа данных, визуализации и прочего, причём именно язык программирования, а не просто тул вроде Gretl.
+То есть можно на нём и сайт спарсить, и электронную почту отправить, и даже какое-нибудь приложение построить, если вы, так сказать, a man of culture.
+Плюс он очень популярный, вы легко найдёте ответы на волнующие вас вопросы в документации/интернете.</p>
+<p>Пайтон тоже используется для анализа данных, и де-факто стал стандартом для индустрии.
+Но почему именно R, а не Python?
+Всё по той же причине.
+R создавался именнно для анализа данных, поэтому всякие крутые плюшки там доступны сразу же, из коробки, в то время как в питоне даже для простейшей дисперсии нужно импортировать какую-нибудь библиотеку.</p>
+<p>Вот, например, хотите вы найти среднеквадратичное отклонение (о нём уже скоро).
+Вам достаточно просто открыть R в коммандной строке и</p>
+<pre tabindex="0"><code>a &lt;- c(1, 2, 3, 10, 15, 9, 1)
+sd(a)
+</code></pre><p>И всё.</p>
+<p>В то время как в питоне нужно имоприровать библиотку <code>statistics</code>, или ещё чего похуже.
+Так же дела обстоят и с визуализацией, в R вы можете это делать сразу, просто открыв R.</p>
+<pre tabindex="0"><code>plot(a, type = &#39;l&#39;)
+</code></pre><p>Короче, R - это такой калькулятор на стероидах, открыл - и в нём сразу можно работать.</p>
+<p>И он очень простой. Базовые комманды учатся очень быстро, здесь с питоном они примерно наравне, если не учитывать, что в питоне для анализа данных нужно учить библиотеки уже со старта.</p>
+<p>А ещё R - векторный язык.
+Это значит, что если вы сделаете <code>a * 2</code>, то получите <code>2, 4, 6, 20, 30, 18, 2</code>, в то время как питон просто продублирует все значения в новый список, а не умножит их.
+Тут уж кому как, но как по мне так логичнее и интуитивнее.</p>
+<p>A почему не Эксель?
+Ну, кроме того, что он плохо спрвляется с каким-нибудь более-менее внеяемым объёмом данных&hellip;
+А не знаю.
+Меня всегда раздражал Эксель его непонятным и неочевидным интерфейсом, где нужно прицеливаться аки снайпер, чтобы протянуть формулу и десять минут искать нужный функционал.
+И когда пытаешься найти, как сделать что-нибудь в нём, приходится пробираться через тысячу кликбейтных ссылок для офисного планктона&hellip;</p>
+<p>А ещё майкрософт - корпорация зла и хочет вас поработить.
+Короче, экселя здесб не будет.</p>
+<p>Так вот, теперь, когда я буду разбирать какую-нибудь тему, я буду сразу приводить пример на R, чтобы ты, дорогой читатель, тоже мог попрактиковаться.
+Как установить его, я думаю ты без проблем на гуглишь.
+Удачи!</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+        <span><a class="tag" href="/ru/tags/tools/">tools</a><a class="tag" href="/ru/tags/r/">R</a><a class="tag" href="/ru/tags/programming/">programming</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Georgy Toporkov
+        2023
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/ru/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR&#43;zwDAROtph0PXGte6ia8heboACF9R5l/DiY&#43;WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous" /><script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8&#43;w2LAIftJEULZABrF9PPFv&#43;tVkH" crossorigin="anonymous"></script><script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+      integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB&#43;w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body);"
+    ></script></body>
+</html>

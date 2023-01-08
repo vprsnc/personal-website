@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/ru/</loc>
-    <lastmod>2023-01-06T20:48:42+03:00</lastmod>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>/ru/post/</loc>
-    <lastmod>2023-01-06T20:48:42+03:00</lastmod>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,11 +28,14 @@
                 href="/ru/post/"
                 />
   </url><url>
-    <loc>/ru/tags/practical-use/</loc>
-    <lastmod>2023-01-06T20:48:42+03:00</lastmod>
+    <loc>/ru/tags/programming/</loc>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
+  </url><url>
+    <loc>/ru/tags/r/</loc>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
   </url><url>
     <loc>/ru/tags/</loc>
-    <lastmod>2023-01-06T20:48:42+03:00</lastmod>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,6 +46,15 @@
                 hreflang="ru"
                 href="/ru/tags/"
                 />
+  </url><url>
+    <loc>/ru/tags/tools/</loc>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
+  </url><url>
+    <loc>/ru/post/why-use-r/</loc>
+    <lastmod>2023-01-08T20:30:52+03:00</lastmod>
+  </url><url>
+    <loc>/ru/tags/practical-use/</loc>
+    <lastmod>2023-01-06T20:48:42+03:00</lastmod>
   </url><url>
     <loc>/ru/post/mean-in-life-sports-ilustrated-curse/</loc>
     <lastmod>2023-01-06T20:48:42+03:00</lastmod>
