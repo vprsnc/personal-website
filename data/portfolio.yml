@@ -48,10 +48,12 @@ It also has better funnier colorscheme (: Source code is available on Github.'
        link: https://www.credly.com/badges/6acb19b5-d800-4ad1-9872-e8aa3ee7367c/public_url
        description: 'Those who earn the Google Data Analytics Certificate have completed eight courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for introductory-level roles in Data Analytics. They are competent in tools and platforms including spreadsheets, SQL, Tableau, and R. They know how to prepare, process, analyze, and share data for thoughtful action.'
 
-
-  # portfolio category
   - title: etc.
     portfolioitem:
+      - name: My GNU/Linux setup
+        image: '/images/portfolio/gitlab.png'
+        link: https://gitlab.com/vprsnc/
+        description: 'You can check how my personal Linux is built on my Gitlab. I am using NixOS as I like it declarative style. I mostly use minimal command line programs. You can check out configuration.nix from nixos repositoryto know what I use, and stow repository for how I set it up. '
       - name: Personal Website
         image: '/images/portfolio/website.png'
         link: https://github.com/vprsnc/personal-website
